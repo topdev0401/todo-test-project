@@ -7,8 +7,8 @@ const Grid = styled.div`
   margin: 0;
 `;
 
-function Layout({children}) {
-  return(
+function Layout({ children }) {
+  return (
     <Grid>
       {children}
     </Grid>

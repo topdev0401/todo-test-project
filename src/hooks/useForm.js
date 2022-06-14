@@ -34,8 +34,8 @@ const useForm = (callback, validate) => {
       ...values,
       [targetName]: event.target.value,
     }
-    const validateErrors = validate({[targetName]: event.target.value});
-    if(validateErrors[targetName] === undefined) {
+    const validateErrors = validate({ [targetName]: event.target.value });
+    if (validateErrors[targetName] === undefined) {
       var resErr = errors;
       delete resErr[targetName];
       setErrors(resErr);

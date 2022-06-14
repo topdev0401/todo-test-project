@@ -101,7 +101,7 @@ export const FlexBlock = styled.div`
   justify-content: center;
   margin-top: 1.5em;
 `;
-  
+
 export const Span = styled.span`
   font-size: 1rem;
   display: block;
